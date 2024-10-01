@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Объявление о продаже дома</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<!-- Логотип или название -->
+			<div class="logo">
+				<div class="logo-item">
+					<!-- Скрытый логотип при активном бургер-меню -->
+					<img src="img/logo baspana.svg" alt="logo" class="burger_logo">
+					<div class="separator"></div>
+					<img src="img/OB_logo.svg" alt="logo">
+				</div>
+			</div>
+	
+			<!-- Скрытый checkbox для управления состоянием бургер-меню -->
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+	
+			<!-- Бургер-меню -->
+			<label for="menu-toggle" class="burger-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+	
+			<!-- Основное меню -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="#">Программы банка</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Местоположение</a></li>
+				</ul>
+			</nav>
+	
+			<!-- Кнопка размещения объявления -->
+			<div class="ad-button">
+				<a href="#">+ Разместить объявление</a>
+			</div>
+	
+			<!-- Иконки и языковые переключатели -->
+			<div class="icons">
+				<a href="#" class="icon-favorite" title="Избранное">
+					<img src="img/Favorite_icon.svg" alt="Избранное">
+				</a>
+	
+				<a href="#" class="icon notifications" title="Уведомления">
+					<div class="notification-icon">
+						<img src="img/Vector_icon.svg" alt="Уведомления">
+						<div class="notification-badge"></div>
+					</div>
+				</a>
+			</div>
+	
+			<!-- Языковые переключатели -->
+			<div class="language-switcher">
+				<a href="#" class="active">Рус</a> /
+				<a href="#">Қаз</a>
+			</div>
+	
+			<!-- Кнопка входа -->
+			<div class="login">
+				<a href="#" class="login-button">
+					Войти
+					<img src="img/shape.svg" alt="Войти" class="login-icon">
+				</a>
+			</div>
+		</div>
+	</header>
+
+
+<!-- Хлебные крошки -->
+<nav class="breadcrumbs">
+	<a href="#">Главная</a>
+	<span class="separator_br">/</span>
+	<a href="#">Результаты поиска</a>
+	<span class="separator_br">/</span>
+	<span class="color_grey">Объект 2271</span>
+</nav>
+
+<!-- Контент страницы -->
+<div class="property-details">
+    <h1>5-комнатный дом, 8 сот.</h1>
+    <p>Казахстан, Жамбылская область, Тараз, 15-й микрорайон</p>
+
+		<div class="gallery-preview">
+			<img id="preview-image" src="img/main preview pic.svg" alt="picture">
+		</div>
+		
+		<div class="gallery">
+			<div class="gallery-container">
+				<img class="gallery-item gallery-item-1" src="img/main preview pic.svg" alt="picture" data-index="1">
+				<img class="gallery-item gallery-item-2" src="img/preview.svg" alt="picture" data-index="2">
+				<img class="gallery-item gallery-item-3" src="img/preview1.svg" alt="picture" data-index="3">
+				<img class="gallery-item gallery-item-4" src="img/preview2.svg" alt="picture" data-index="4">
+				<img class="gallery-item gallery-item-5" src="img/preview3.svg" alt="picture" data-index="5">
+				<img class="gallery-item gallery-item-6" src="img/preview4.svg" alt="picture" data-index="6">
+				<img class="gallery-item gallery-item-7" src="img/preview5.svg" alt="picture" data-index="7">
+			</div>
+			<div class="gallery-controls">
+				<button class="gallery-controls-previous">
+					<img src="img/img_navigation/Left.png" alt="Предыдущий">
+				</button>
+				<button class="gallery-controls-next">
+					<img src="img/img_navigation/Right.png" alt="Следующий">
+				</button>
+			</div>
+			
+		
+	
+		
+		<script src="script.js"></script>
+	
+    <div class="sidebar">
+        <div class="price-box">
+            <h2>38 800 000 ₸</h2>
+            <p>Площадь квартиры: 110,6 м2</p>
+            <button>В избранное</button>
+            <button>Рассчитать ипотеку</button>
+        </div>
+    </div>
+</div>
+
+<section class="additional-info">
+    <h2>Гарантия</h2>
+    <p>Подходит под залог, Имеется гарантия КСК</p>
+</section>
+
+<section class="description">
+    <h2>Описание</h2>
+    <p>Срочно! Продам в экологически чистом районе...</p>
+    <a href="#">Читать больше</a>
+</section>
+
+<section class="map-section">
+    <img src="img/map.jpg" alt="Карта">
+</section>
+
+<section class="new-listings">
+    <h2>Новые объявления на сайте</h2>
+    <!-- Список новых объявлений -->
+</section>
+
+<section class="recently-viewed">
+    <h2>Недавно смотрели</h2>
+    <!-- Список недавно просмотренных -->
+</section>
+
+<!-- Футер сайта -->
+<footer class="footer">
+    <div class="container">
+        <!-- Контент футера -->
+    </div>
+</footer>
+
+</body>
+</html>
